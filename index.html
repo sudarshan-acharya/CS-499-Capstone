@@ -1,9 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sudarshan Acharya's Computer Science academic and professional portfolio.">
     <title>Sudarshan Acharya | Computer Science Portfolio</title>
 
     <style>
@@ -34,13 +34,19 @@
             background-color: #ffffff;
             padding: 15px;
             text-align: center;
+            position: sticky;
+            top: 0;
         }
 
         nav a {
             color: #172b4d;
             text-decoration: none;
-            margin: 0 15px;
+            margin: 0 12px;
             font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #1769aa;
         }
 
         main {
@@ -58,6 +64,42 @@
 
         h2 {
             color: #172b4d;
+            border-bottom: 2px solid #e8edf3;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #263445;
+        }
+
+        .status {
+            font-weight: bold;
+        }
+
+        .completed {
+            color: #218838;
+        }
+
+        .progress {
+            color: #b7791f;
+        }
+
+        .planned {
+            color: #68778a;
+        }
+
+        .button-link {
+            display: inline-block;
+            background-color: #172b4d;
+            color: white;
+            padding: 10px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 8px;
+        }
+
+        .button-link:hover {
+            background-color: #244a78;
         }
 
         footer {
@@ -69,6 +111,25 @@
 
         a {
             color: #1769aa;
+        }
+
+        footer a {
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 6px;
+            }
+
+            header {
+                padding: 40px 15px;
+            }
+
+            section {
+                padding: 20px;
+            }
         }
     </style>
 </head>
@@ -85,6 +146,7 @@
         <a href="#about">About Me</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
+        <a href="#capstone">Capstone</a>
         <a href="#contact">Contact</a>
     </nav>
 
@@ -92,55 +154,170 @@
 
         <section id="about">
             <h2>About Me</h2>
+
             <p>
                 I am pursuing a Bachelor of Science in Computer Science
-                at Southern New Hampshire University. Through my
-                coursework, I have developed foundational skills in
-                programming, application development, and software design.
+                at Southern New Hampshire University. I previously
+                earned an Associate of Applied Science in Information
+                Technology from the Community College of Baltimore County.
             </p>
+
             <p>
-                My interests include software development, programming,
-                and problem-solving. My goal is to continue improving my
-                technical skills and pursue a career in the technology field.
+                My interest in technology began during community college.
+                After gaining experience in IT support, I decided to
+                continue my education in Computer Science to develop
+                stronger programming and application development skills.
+            </p>
+
+            <p>
+                I am interested in software development, back-end
+                development, application design, and problem-solving.
+                My goal is to continue building practical experience
+                and pursue opportunities in the technology field.
             </p>
         </section>
 
         <section id="skills">
             <h2>Technical Skills</h2>
+
             <ul>
-                <li>Programming and Application Development</li>
-                <li>Java and Python</li>
-                <li>Database Management and SQL</li>
-                <li>Software Design and Testing</li>
-                <li>HTML, CSS, and JavaScript</li>
-                <li>Problem-Solving and Debugging</li>
+                <li>Programming: Java and Python</li>
+                <li>Web Development: HTML, CSS, and JavaScript</li>
+                <li>Databases: SQLite and MongoDB</li>
+                <li>Application Development: Android Studio</li>
+                <li>Back-End Development: Node.js and Express</li>
+                <li>Front-End Development: Angular</li>
+                <li>Version Control: Git and GitHub</li>
+                <li>Software Design, Testing, and Debugging</li>
             </ul>
+
+            <p>
+                These technologies and skills have been developed through
+                academic coursework and hands-on projects.
+            </p>
         </section>
 
         <section id="projects">
             <h2>Academic Projects</h2>
 
-            <h3>Event Tracking Application</h3>
+            <h3>Event Tracking Android Application</h3>
+
             <p>
-                An Android application developed as part of CS-360
-                Mobile Architecture and Programming. It allows users
-                to manage events and schedule reminders.
+                An Android application developed as part of CS-360:
+                Mobile Architecture and Programming. The application
+                allows users to manage events and schedule reminders.
+                It was originally developed using Java, Android Studio,
+                and SQLite.
             </p>
 
-            <h3>Additional Projects</h3>
+            <h3>Full Stack Web Development - Travlr</h3>
+
             <p>
-                More academic projects and enhanced work will be
-                added as I progress through the Computer Science
-                Capstone course.
+                An academic project developed as part of CS-465:
+                Full Stack Development I. This project involves
+                working with web application components, Node.js,
+                Express, Angular, Handlebars, and MongoDB.
             </p>
         </section>
 
+        <section id="capstone">
+            <h2>CS-499 Computer Science Capstone</h2>
+
+            <p>
+                My capstone project builds upon the Event Tracking
+                Android application originally developed in CS-360.
+                The goal is to improve the application's design,
+                functionality, algorithms, and database management
+                through three enhancement categories.
+            </p>
+
+            <h3>Milestone One: Code Review</h3>
+
+            <p>
+                The original application was reviewed before
+                implementing the planned enhancements. The code
+                review documents the existing application and
+                identifies areas for improvement.
+            </p>
+
+            <p>
+                <a class="button-link"
+                   href="https://snhu-my.sharepoint.com/personal/sudarshan_acharya_snhu_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsudarshan%5Facharya%5Fsnhu%5Fedu%2FDocuments%2FCS499%20Milestone%20One%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eebc11c2d%2D711f%2D46c4%2Db703%2D6468b21ad905"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Watch Code Review Video (35 Minutes)
+                </a>
+            </p>
+
+            <p>
+                <small>
+                    Note: Viewing the video requires an authorized
+                    SNHU account.
+                </small>
+            </p>
+
+            <h3>Enhancement 1: Software Design and Engineering</h3>
+
+            <p class="status completed">
+                Status: Submitted - Meets Expectations
+            </p>
+
+            <ul>
+                <li>Introduced EventRepository and EventViewModel.</li>
+                <li>Separated database operations from screen responsibilities.</li>
+                <li>Improved application navigation.</li>
+                <li>Added event deletion confirmation.</li>
+            </ul>
+
+            <p>
+                Instructor feedback recommended adding automated
+                tests for repository operations and event management
+                to strengthen testing.
+            </p>
+
+            <h3>Enhancement 2: Algorithms and Data Structures</h3>
+
+            <p class="status progress">
+                Status: In Progress
+            </p>
+
+            <p>
+                Planned improvements include Trie-based event searching,
+                filtering, and sorting to improve how users find events.
+            </p>
+
+            <h3>Enhancement 3: Databases</h3>
+
+            <p class="status planned">
+                Status: Planned
+            </p>
+
+            <p>
+                Planned improvements include password hashing,
+                database migration, foreign-key enforcement,
+                and improved data integrity.
+            </p>
+
+        </section>
+
         <section id="contact">
-            <h2>Contact</h2>
+            <h2>Contact and Professional Links</h2>
+
             <p>
                 GitHub:
-                <a href="https://github.com/sudarshan-acharya">
-                    View my GitHub profile
+                <a href="https://github.com/sudarshan-acharya"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View My GitHub Profile
+                </a>
+            </p>
+
+            <p>
+                Capstone Repository:
+                <a href="https://github.com/sudarshan-acharya/CS-499-Capstone"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    CS-499-Capstone
                 </a>
             </p>
         </section>
@@ -148,7 +325,10 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 Sudarshan Acharya | Computer Science Portfolio</p>
+        <p>
+            &copy; 2026 Sudarshan Acharya |
+            Computer Science Portfolio
+        </p>
     </footer>
 
 </body>
