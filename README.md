@@ -17,16 +17,23 @@ The portfolio showcases my academic background, technical skills, projects, and 
 **Technologies:** Java, Android Studio, SQLite
 
 ### Enhancement 1: Software Design and Engineering
+
 - Introduced EventRepository and EventViewModel.
 - Improved separation of application responsibilities.
 - Improved navigation and event deletion confirmation.
 - Submitted for instructor review and received a Meets Expectations evaluation.
 
 ### Enhancement 2: Algorithms and Data Structures
-- Planned Trie-based event searching.
-- Improvements to filtering and sorting.
+
+- Implemented Trie-based event-name prefix searching.
+- Added case-insensitive searching.
+- Added All, Upcoming, and Past event filters.
+- Improved event list usability and interface layout.
+- Added automated unit tests for Trie functionality.
+- Completed Milestone Three enhancement and testing.
 
 ### Enhancement 3: Databases
+
 - Planned password hashing.
 - Database migration and foreign-key enforcement.
 - Improved data integrity.
@@ -42,4 +49,4 @@ Sudarshan Acharya
 
 Computer Science Student
 
-GitHub: [sudarshan-acharya](https://github.com/sudarshan-acharya)
+GitHub: [sudarshan-acharya](https://github.com/sudarshan-acharya) 
