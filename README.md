@@ -2,9 +2,7 @@
 
 ## Professional ePortfolio
 
-This repository contains my professional ePortfolio for the CS-499 Computer Science Capstone course.
-
-The portfolio showcases my academic background, technical skills, projects, and progress in enhancing an Android Event Tracking application originally developed in CS-360.
+This repository contains my professional ePortfolio for the CS-499 Computer Science Capstone course. It showcases my academic background, technical skills, projects, and enhancements to an Android Event Tracking application originally developed in CS-360.
 
 ## Portfolio Website
 
@@ -34,8 +32,8 @@ The portfolio showcases my academic background, technical skills, projects, and 
 
 ### Enhancement 3: Databases
 
-- Planned password hashing.
-- Database migration and foreign-key enforcement.
+- Implemented password hashing.
+- Improved database migration and foreign-key enforcement.
 - Improved data integrity.
 
 ## Repository Contents
@@ -49,4 +47,4 @@ Sudarshan Acharya
 
 Computer Science Student
 
-GitHub: [sudarshan-acharya](https://github.com/sudarshan-acharya) 
+GitHub: [sudarshan-acharya](https://github.com/sudarshan-acharya)
